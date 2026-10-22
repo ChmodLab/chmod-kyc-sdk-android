@@ -26,6 +26,6 @@ dependencies {
 }
 ```
 
-`X.Y.Z` versions are releases. `X.Y.Z-dev` versions are internal test builds.
+Each version is published once and never replaced.
 
 This repository is written by chmod's release pipeline: don't edit it by hand.
