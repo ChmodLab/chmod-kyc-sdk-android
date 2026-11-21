@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.chmod.kyc",
+    "module": "chmod-liveness-android",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.amplifyframework",
+          "module": "aws-api",
+          "version": {
+            "requires": "2.23.0"
+          }
+        },
+        {
+          "group": "com.amplifyframework",
+          "module": "aws-predictions",
+          "version": {
+            "requires": "2.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chmod-liveness-android-1.0.0.aar",
+          "url": "chmod-liveness-android-1.0.0.aar",
+          "size": 1398619,
+          "sha512": "32728eb87fd5f1e7798364cf5950622b3cc39140738ae8ad587f59e7ad79446fedcd8f14b4ef83d065684e82fcebc6eb9fbeb8045bf973399ab08935405b5740",
+          "sha256": "95729f63c090a79f702098031cb5a61c0127825f6d739ff0378e0aa7379799f0",
+          "sha1": "80e7b7e0adff32a1a0cc16ff977947f2eb93ad99",
+          "md5": "4af1faad75c8564c6892c76ed9be2013"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "androidx.concurrent",
+          "module": "concurrent-futures",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "com.google.ai.edge.litert",
+          "module": "litert",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.google.ai.edge.litert",
+          "module": "litert-support",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.amplifyframework",
+          "module": "aws-api",
+          "version": {
+            "requires": "2.23.0"
+          }
+        },
+        {
+          "group": "com.amplifyframework",
+          "module": "aws-predictions",
+          "version": {
+            "requires": "2.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chmod-liveness-android-1.0.0.aar",
+          "url": "chmod-liveness-android-1.0.0.aar",
+          "size": 1398619,
+          "sha512": "32728eb87fd5f1e7798364cf5950622b3cc39140738ae8ad587f59e7ad79446fedcd8f14b4ef83d065684e82fcebc6eb9fbeb8045bf973399ab08935405b5740",
+          "sha256": "95729f63c090a79f702098031cb5a61c0127825f6d739ff0378e0aa7379799f0",
+          "sha1": "80e7b7e0adff32a1a0cc16ff977947f2eb93ad99",
+          "md5": "4af1faad75c8564c6892c76ed9be2013"
+        }
+      ]
+    }
+  ]
+}
